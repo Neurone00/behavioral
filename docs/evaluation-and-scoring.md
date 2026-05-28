@@ -3,6 +3,15 @@
 This document describes the active behavioral review rubric used for the daily
 Teams communication review.
 
+## Canonical Source
+
+The machine-readable source of truth for this rubric is:
+
+- `config/review-profiles/ta-daily-review-v1.json`
+
+Narrative documentation should match that file. Automation should read the file
+rather than re-declaring constants in multiple places.
+
 ## Purpose
 
 The system is designed to review professional communication quality, not
