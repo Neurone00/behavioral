@@ -1,0 +1,9 @@
+[project]
+name = "behavioral-review"
+version = "0.1.0"
+description = "Daily Teams behavioral review with Transactional Analysis scoring"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
