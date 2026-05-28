@@ -3,6 +3,15 @@
 This repository bootstraps a Microsoft Teams behavioral review system using a
 Transactional Analysis framing for professional communication.
 
+## Canonical Configuration
+
+The canonical machine-readable scoring and scope definition lives in:
+
+- `config/review-profiles/ta-daily-review-v1.json`
+
+Automation should read that file as the source of truth for scope defaults,
+rubric dimensions, score bands, and label definitions.
+
 ## What Is Evaluated
 
 The current implementation evaluates only the user's meaningful replies inside
