@@ -1,3 +1,8 @@
-date,Adapted Child,Adult,Nurturing Parent
-2026-05-28,1,6,1
-2026-06-03,1,16,2
+date,Adult,Critical Parent,Nurturing Parent,Adapted Child,Free Child
+2026-05-28,43,2,1,1,0
+2026-05-29,32,1,9,3,1
+2026-05-30,0,0,0,0,0
+2026-05-31,0,0,0,0,0
+2026-06-01,0,0,0,0,0
+2026-06-02,0,0,0,0,0
+2026-06-03,49,7,0,0,0
