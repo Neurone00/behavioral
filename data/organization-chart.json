@@ -1,0 +1,522 @@
+{
+  "source": {
+    "type": "uploaded_org_chart_image",
+    "title": "Organigramma",
+    "period": "Aprile 2026",
+    "notes": [
+      "Structured from the org chart image provided in ChatGPT.",
+      "Use this as the canonical people and relationship map for behavioral analysis and Lovable visualization.",
+      "Seniority marker values are inferred from visible color coding in the chart and should be validated if needed."
+    ]
+  },
+  "legend": {
+    "senior": "Senior",
+    "project_coordinator": "Coordinatore Progetti",
+    "unmarked": "No visible seniority/project-coordinator marker"
+  },
+  "relationship_rules_for_behavioral_analysis": {
+    "self": "Luca Salvioni",
+    "bosses": [
+      "Evelina Borghesan"
+    ],
+    "executive_leadership": [
+      "Giulia Salvioni",
+      "Evelina Borghesan"
+    ],
+    "direct_subordinates": [
+      "Massimiliano Martinelli",
+      "Alessandro Piccoli",
+      "Letizia Montemurro"
+    ],
+    "known_peers_different_departments": [
+      "Giulio Clerici",
+      "Francesca Lodini"
+    ],
+    "evaluation_implications": {
+      "direct_subordinate": [
+        "Evaluate leadership clarity",
+        "Evaluate delegation quality",
+        "Evaluate psychological safety",
+        "Evaluate coaching quality",
+        "Evaluate supportive accountability",
+        "Evaluate whether instructions include objective, context, owner, and next step"
+      ],
+      "peer_different_department": [
+        "Evaluate lateral influence",
+        "Evaluate negotiation quality",
+        "Evaluate alignment and boundary clarity",
+        "Evaluate cross-functional clarity",
+        "Evaluate whether the exchange moves work forward without overstepping authority"
+      ],
+      "boss": [
+        "Evaluate upward communication",
+        "Evaluate concision and synthesis",
+        "Evaluate escalation quality",
+        "Evaluate decision framing",
+        "Evaluate ownership and risk clarity"
+      ],
+      "executive_leadership": [
+        "Evaluate executive clarity",
+        "Evaluate concise context setting",
+        "Evaluate risk and decision framing",
+        "Evaluate accountability and confidence"
+      ]
+    }
+  },
+  "people": [
+    {
+      "name": "Giulia Salvioni",
+      "role": "CEO",
+      "department": "Executive Leadership",
+      "reports_to": null,
+      "relationship_to_luca": "executive_leadership",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Evelina Borghesan",
+      "role": "CEO",
+      "department": "Executive Leadership",
+      "reports_to": null,
+      "relationship_to_luca": "boss",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Elena Cavalieri d’Oro",
+      "role": "HR Manager",
+      "department": "HR",
+      "reports_to": ["Executive Leadership"],
+      "relationship_to_luca": "hr",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Valeria Telaro",
+      "role": "Referente Amministrativo e Servizi Generali",
+      "department": "Administration and General Services",
+      "reports_to": ["Executive Leadership"],
+      "relationship_to_luca": "administration",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Marco Conti",
+      "role": "Administration and General Services",
+      "department": "Administration and General Services",
+      "reports_to": ["Valeria Telaro"],
+      "relationship_to_luca": "administration",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Iris Ranzani",
+      "role": "Creative & Agency Director",
+      "department": "Creative & Agency",
+      "reports_to": ["Executive Leadership"],
+      "relationship_to_luca": "peer_or_senior_peer",
+      "seniority_marker": "unmarked",
+      "direct_reports": ["Milo Angeloni", "Giada Grosset", "Alberto Malomo", "Gabriele Pavani", "Martina Timpanaro", "Federica Ferrari", "Fabiola Bonelli", "Martina Mattucci", "Sara Allegro", "Giulia Castiglioni", "Cristina Ghidini", "Alice Gasparri", "Kelly Hu"]
+    },
+    {
+      "name": "Milo Angeloni",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Giada Grosset",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Alberto Malomo",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Gabriele Pavani",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Martina Timpanaro",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Federica Ferrari",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Fabiola Bonelli",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Martina Mattucci",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Sara Allegro",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Giulia Castiglioni",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Cristina Ghidini",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Alice Gasparri",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Kelly Hu",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Iris Ranzani"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Francesca Lodini",
+      "role": "Creative & Agency Director",
+      "department": "Creative & Agency",
+      "reports_to": ["Executive Leadership"],
+      "relationship_to_luca": "peer_different_department",
+      "seniority_marker": "unmarked",
+      "direct_reports": ["Giulia Caniato", "Emanuelle De Luca", "Gianmarco Frateschi", "Lucia Marchetti", "Oriana Guercio"]
+    },
+    {
+      "name": "Giulia Caniato",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Francesca Lodini"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Emanuelle De Luca",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Francesca Lodini"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Gianmarco Frateschi",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Francesca Lodini"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Lucia Marchetti",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Francesca Lodini"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Oriana Guercio",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Francesca Lodini"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Matteo Cucuzza",
+      "role": "Marketing & Agency Director",
+      "department": "Marketing & Agency",
+      "reports_to": ["Executive Leadership"],
+      "relationship_to_luca": "peer_or_senior_peer",
+      "seniority_marker": "unmarked",
+      "direct_reports": ["Ornella Capasso", "Giorgia Croci", "Francesca Cumani", "Fabio Franzetti", "Alessia Porto", "Chiara Saviori", "Roberta Zaffaroni"]
+    },
+    {
+      "name": "Ornella Capasso",
+      "role": "Team member",
+      "department": "Marketing & Agency",
+      "reports_to": ["Matteo Cucuzza"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Giorgia Croci",
+      "role": "Team member",
+      "department": "Marketing & Agency",
+      "reports_to": ["Matteo Cucuzza"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Francesca Cumani",
+      "role": "Team member",
+      "department": "Marketing & Agency",
+      "reports_to": ["Matteo Cucuzza"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Fabio Franzetti",
+      "role": "Team member",
+      "department": "Marketing & Agency",
+      "reports_to": ["Matteo Cucuzza"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Alessia Porto",
+      "role": "Team member",
+      "department": "Marketing & Agency",
+      "reports_to": ["Matteo Cucuzza"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Chiara Saviori",
+      "role": "Team member",
+      "department": "Marketing & Agency",
+      "reports_to": ["Matteo Cucuzza"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Roberta Zaffaroni",
+      "role": "Team member",
+      "department": "Marketing & Agency",
+      "reports_to": ["Matteo Cucuzza"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Gaetano Giarracca",
+      "role": "Development & Agency Director",
+      "department": "Development & Agency",
+      "reports_to": ["Executive Leadership"],
+      "relationship_to_luca": "peer_or_senior_peer",
+      "seniority_marker": "unmarked",
+      "direct_reports": ["Francesca Masin"]
+    },
+    {
+      "name": "Francesca Masin",
+      "role": "Team member",
+      "department": "Development & Agency",
+      "reports_to": ["Gaetano Giarracca"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Silvia Frattini",
+      "role": "Content & Agency Director",
+      "department": "Content & Agency",
+      "reports_to": ["Executive Leadership"],
+      "relationship_to_luca": "peer_or_senior_peer",
+      "seniority_marker": "unmarked",
+      "direct_reports": ["Veronica Barbaglia", "Kyle Dugan", "Francesca Stragapede"]
+    },
+    {
+      "name": "Veronica Barbaglia",
+      "role": "Team member",
+      "department": "Content & Agency",
+      "reports_to": ["Silvia Frattini"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Kyle Dugan",
+      "role": "Team member",
+      "department": "Content & Agency",
+      "reports_to": ["Silvia Frattini"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "senior"
+    },
+    {
+      "name": "Francesca Stragapede",
+      "role": "Team member",
+      "department": "Content & Agency",
+      "reports_to": ["Silvia Frattini"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Giulio Clerici",
+      "role": "Creative & Agency Director",
+      "department": "Creative & Agency",
+      "reports_to": ["Executive Leadership"],
+      "relationship_to_luca": "peer_different_department",
+      "seniority_marker": "unmarked",
+      "direct_reports": ["Diana Borghesan", "Camilla Algisi", "Martina Giordano", "Sarah Piatti", "Elena Calearo", "Greta Paganini"]
+    },
+    {
+      "name": "Diana Borghesan",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Giulio Clerici"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Camilla Algisi",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Giulio Clerici"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Martina Giordano",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Giulio Clerici"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Sarah Piatti",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Giulio Clerici"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Elena Calearo",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Giulio Clerici"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Greta Paganini",
+      "role": "Team member",
+      "department": "Creative & Agency",
+      "reports_to": ["Giulio Clerici"],
+      "relationship_to_luca": "other_department",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Michelle Tata",
+      "role": "Associate Team Leader",
+      "department": "Associate Team",
+      "reports_to": ["Executive Leadership"],
+      "relationship_to_luca": "peer_same_level",
+      "seniority_marker": "unmarked",
+      "direct_reports": ["Andrea Castoldi", "Daniele Amico", "Dalia Vanoletti", "Jeanet Tello"]
+    },
+    {
+      "name": "Andrea Castoldi",
+      "role": "Team member",
+      "department": "Associate Team",
+      "reports_to": ["Michelle Tata"],
+      "relationship_to_luca": "other_team",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Daniele Amico",
+      "role": "Team member",
+      "department": "Associate Team",
+      "reports_to": ["Michelle Tata"],
+      "relationship_to_luca": "other_team",
+      "seniority_marker": "senior"
+    },
+    {
+      "name": "Dalia Vanoletti",
+      "role": "Team member",
+      "department": "Associate Team",
+      "reports_to": ["Michelle Tata"],
+      "relationship_to_luca": "other_team",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Jeanet Tello",
+      "role": "Team member",
+      "department": "Associate Team",
+      "reports_to": ["Michelle Tata"],
+      "relationship_to_luca": "other_team",
+      "seniority_marker": "project_coordinator"
+    },
+    {
+      "name": "Luca Salvioni",
+      "role": "Associate Team Leader",
+      "department": "Associate Team",
+      "reports_to": ["Evelina Borghesan", "Executive Leadership"],
+      "relationship_to_luca": "self",
+      "seniority_marker": "unmarked",
+      "direct_reports": ["Massimiliano Martinelli", "Alessandro Piccoli", "Letizia Montemurro"]
+    },
+    {
+      "name": "Massimiliano Martinelli",
+      "role": "Team member",
+      "department": "Associate Team",
+      "reports_to": ["Luca Salvioni"],
+      "relationship_to_luca": "direct_subordinate",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Alessandro Piccoli",
+      "role": "Team member",
+      "department": "Associate Team",
+      "reports_to": ["Luca Salvioni"],
+      "relationship_to_luca": "direct_subordinate",
+      "seniority_marker": "unmarked"
+    },
+    {
+      "name": "Letizia Montemurro",
+      "role": "Team member",
+      "department": "Associate Team",
+      "reports_to": ["Luca Salvioni"],
+      "relationship_to_luca": "direct_subordinate",
+      "seniority_marker": "unmarked"
+    }
+  ],
+  "committees": [
+    {
+      "name": "Comitato Guida Parità di genere",
+      "members": ["Evelina Borghesan", "Giulia Salvioni", "Elena Cavalieri d’Oro"]
+    }
+  ]
+}
