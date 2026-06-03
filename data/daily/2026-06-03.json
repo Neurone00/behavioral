@@ -1,0 +1,38 @@
+{
+  "date": "2026-06-03",
+  "timezone": "Europe/Rome",
+  "window_start": "2026-06-03T00:00:00+02:00",
+  "window_end": "2026-06-03T18:37:24+02:00",
+  "coverage": {
+    "eligible_chats_reviewed": 10,
+    "eligible_chats_with_luca_meaningful_replies": 8,
+    "meaningful_reply_count": 19,
+    "non_meaningful_luca_messages_excluded": 18,
+    "bot_or_system_messages_excluded": 0
+  },
+  "summary_metrics": {
+    "average_score": 7.05,
+    "median_score": 7.0,
+    "strong_reply_count": 6,
+    "solid_reply_count": 12,
+    "watch_reply_count": 1,
+    "ego_state_counts": {
+      "Adult": 16,
+      "Nurturing Parent": 2,
+      "Adapted Child": 1
+    },
+    "transaction_type_counts": {
+      "complementary": 18,
+      "crossed_risk": 1
+    },
+    "escalation_counts": {
+      "de-escalating": 3,
+      "stable": 15,
+      "mild_risk": 1
+    }
+  },
+  "notes": [
+    "Safe structured output only.",
+    "No raw Teams message text is stored in GitHub."
+  ]
+}
