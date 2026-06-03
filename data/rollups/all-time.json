@@ -1,0 +1,27 @@
+{
+  "days_included": 2,
+  "eligible_chats_reviewed": 16,
+  "eligible_chats_with_luca_meaningful_replies": 11,
+  "meaningful_reply_count": 27,
+  "average_score": 7.11,
+  "median_score": 7.0,
+  "band_counts": {
+    "strong": 10,
+    "solid": 15,
+    "watch": 2
+  },
+  "ego_state_counts": {
+    "Adult": 22,
+    "Nurturing Parent": 3,
+    "Adapted Child": 2
+  },
+  "transaction_type_counts": {
+    "complementary": 25,
+    "crossed_risk": 2
+  },
+  "escalation_counts": {
+    "de-escalating": 5,
+    "stable": 20,
+    "mild_risk": 2
+  }
+}
