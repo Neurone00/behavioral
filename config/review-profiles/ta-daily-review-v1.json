@@ -1,0 +1,130 @@
+{
+  "profile_version": "ta-daily-review-v1",
+  "owner": {
+    "name": "Luca Salvioni",
+    "email": "l.salvioni@moskitodesign.it",
+    "timezone": "Europe/Rome"
+  },
+  "scope": {
+    "processing_window": "same_day_only",
+    "window_start_local": "00:00",
+    "include_chat_types": [
+      "oneOnOne",
+      "group"
+    ],
+    "exclude_chat_types": [
+      "meeting",
+      "channel"
+    ],
+    "exclude_message_sources": [
+      "bot",
+      "system"
+    ],
+    "historical_backfill": false,
+    "meaningful_reply_definition": "A Luca-authored reply that materially advances understanding, clarifies ambiguity, repairs tone, or proposes a next step. Pure greetings, acknowledgements, fillers, and image-only posts are excluded."
+  },
+  "rubric": {
+    "model": "Transactional Analysis professional review",
+    "score_range": {
+      "min": 0,
+      "max": 10
+    },
+    "score_formula": "adult_clarity + transaction_fit + tone_regulation + actionability + repair_or_empathy",
+    "dimensions": [
+      {
+        "key": "adult_clarity",
+        "max": 3,
+        "description": "Specific, reality-based communication that clarifies facts or constraints."
+      },
+      {
+        "key": "transaction_fit",
+        "max": 2,
+        "description": "Response stays complementary to the incoming work transaction rather than crossing it."
+      },
+      {
+        "key": "tone_regulation",
+        "max": 2,
+        "description": "Tone reduces friction and avoids avoidable escalation."
+      },
+      {
+        "key": "actionability",
+        "max": 2,
+        "description": "Reply helps the other person decide, act, or move the task forward."
+      },
+      {
+        "key": "repair_or_empathy",
+        "max": 1,
+        "description": "Useful relational repair, reassurance, or acknowledgement when context calls for it."
+      }
+    ],
+    "interpretation_bands": [
+      {
+        "label": "strong",
+        "min_inclusive": 8,
+        "max_exclusive": 10.01,
+        "description": "Clear Adult communication with strong practical value."
+      },
+      {
+        "label": "solid",
+        "min_inclusive": 5,
+        "max_exclusive": 8,
+        "description": "Workable and often helpful, with some room to improve clarity or regulation."
+      },
+      {
+        "label": "watch",
+        "min_inclusive": 0,
+        "max_exclusive": 5,
+        "description": "Greater risk of friction, ambiguity, or crossed-transaction effects."
+      }
+    ]
+  },
+  "classification_labels": {
+    "ego_states": [
+      {
+        "label": "Adult",
+        "description": "Factual, bounded, practical, problem-solving."
+      },
+      {
+        "label": "Nurturing Parent",
+        "description": "Supportive, reassuring, easing pressure or repairing tension."
+      },
+      {
+        "label": "Adapted Child",
+        "description": "Defensive, avoidant, appeasing, or narrow reactive framing."
+      }
+    ],
+    "transaction_types": [
+      {
+        "label": "complementary",
+        "description": "Reply fits the incoming work transaction and helps the exchange continue productively."
+      },
+      {
+        "label": "crossed_risk",
+        "description": "Reply introduces a mismatch that may increase misunderstanding or defensiveness."
+      }
+    ],
+    "escalation_labels": [
+      {
+        "label": "de-escalating",
+        "description": "Likely lowers tension or restores workability."
+      },
+      {
+        "label": "stable",
+        "description": "Unlikely to materially change tension."
+      },
+      {
+        "label": "mild_risk",
+        "description": "May raise tension or friction if received poorly."
+      }
+    ]
+  },
+  "storage_rules": {
+    "store_raw_text": false,
+    "store_private_reports_in_github": false,
+    "store_only_metrics_and_message_ids": true
+  },
+  "notes": [
+    "This config is the versioned source of truth for scoring and scope.",
+    "Automation should read this file rather than duplicating rubric constants in code or prompts."
+  ]
+}
